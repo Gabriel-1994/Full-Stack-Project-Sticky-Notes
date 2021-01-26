@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+    <title>Add Notes</title>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+</head>
+<body>
+
+    <div id="header">
+        <h1>Sticky Notes</h1><br>
+    </div>
+
+    <div id="pages">
+        <h2>Done</h2>
+        <ul>
+            <li class="active">by</li>
+            <li>Gabriel</li>
+            <li>Qasim</li>
+            <li>Aladin</li>
+        </ul>
+    </div>
+
+
+    <div id="content">
+        <div id="posts">
+            <div class="post">
+                <h2 class="title">Add note!</h2>
+                <div class="story">
+                    <form class="form-style-7" action="/newnote" method="POST">
+                        <br>
+
+
+                            <label for="text">Category</label>
+                            <input type="text" name="category" maxlength="500"><br>
+
+
+
+                            <label for="text">Title</label>
+                            <input type="text" name="title" maxlength="100"><br>
+
+
+
+                            <label for="text">Note</label>
+                            <input type="text" name="note" maxlength="500"><br>
+
+
+
+                            <input class = "my_cool_button" type="submit" value="Add Note" >
+
+
+                    </form>
+                </div>
+                <div class="meta">
+                    <p></p>
+                </div>
+            </div>
+
+        
+        
+    </div> 
+    
+    
+    <div id="search" class="yellownotes">
+		<h2 class="heading"></h2>
+		<div class="content">
+			<p></p>
+		</div>
+    </div>
+
+    <div id="archives" class="greennotes">		
+		<div class="content">
+			<ul>
+				<p>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+			</ul>
+		</div>
+	</div>
+    
+	</div>
+
+
+
+<!--
+    <header>
+            Add Note
+    </header>
+
+        <form class="form-style-7" action="/newnote" method="POST">
+            <h4 style="color: purple;">Add Note</h4>
+            <br>
+            <ul>
+            <li>
+                <label for="text">Category</label>
+                <input type="text" name="category" maxlength="500">
+                <span>Insert note category</span>
+            </li>
+            <li>
+                <label for="text">Title</label>
+                <input type="text" name="title" maxlength="100">
+                <span>Insert note title</span>
+            </li>
+            <li>
+                <label for="text">Note</label>
+                <input type="text" name="note" maxlength="500">
+                <span>Insert Descreption</span>
+            </li>
+            <li>
+                <input type="submit" value="Add Note" >
+            </li>
+            </ul>
+        </form>
+-->
+</body>
+</html>

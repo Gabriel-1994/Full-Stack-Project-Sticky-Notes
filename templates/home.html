@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <title>Sticky Notes</title>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+</head>
+<body>
+    <div id="header">
+        <h1>Sticky Notes</h1><br>
+    </div>
+
+    <div id="pages">
+        <h2>Done</h2>
+        <ul>
+            <li class="active">by</li>
+            <li>Gabriel</li>
+            <li>Qasim</li>
+            <li>Aladin</li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div id="posts">
+            <div class="post">
+                <h2 class="title">Welcome to Sticky Notes!</h2>
+                <div class="story">
+                    <p><em><strong>Sticky Notes</strong></em> is where you can write any notes that you need. Every note is saved and all your reminders and secrets are safe with us here.</p>
+                </div>
+                <div class="meta">
+                    <p>Enjoy :)</p>
+                </div>
+            </div>
+
+        <div class="post">            
+            <h2 class="title">Log in</h2>
+            <div class="story">
+			<form class="form-style-7" action="/notes" method="POST">
+                
+                <br>
+
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" maxlength="100">
+                    <br><br>
+
+
+                    <label for="name">Password</label>
+                    <input type="password" name="password" maxlength="100">
+                    <br>
+
+                    <input class=my_cool_button type="submit" value="Login" >
+            </form>            
+        </div>
+        <div class="meta">
+            <p></p>
+        </div>
+        </div>
+        
+    </div> 
+    
+    
+    <div id="search" class="yellownotes">
+		<h2 class="heading">Sign Up</h2>
+		<div class="content">
+			<form class="form-style-7" action="/signup" method="GET">
+                <ul>
+                    <input class=my_cool_button type="submit" value="Signup" >
+                </ul>
+            </form>
+		</div>
+    </div>
+
+    <div id="archives" class="greennotes">		
+		<div class="content">
+			<ul>
+				<p>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+			</ul>
+		</div>
+	</div>
+	<div id="categories" class="orangenotes">
+		<div class="content">
+			<ul>
+				<p>
+                    <br>
+                    <br>
+                    <br>
+                </p>
+			</ul>
+		</div>
+	</div>
+    
+    
+	</div>
+
+
+
+
+</body>
+</html>
